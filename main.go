@@ -11,7 +11,7 @@ import (
 	"github.com/ktr0731/go-updater/github"
 )
 
-var version = semver.MustParse("0.1.0")
+var version = semver.MustParse("0.1.1")
 
 var (
 	v        = flag.Bool("v", false, "show version")
